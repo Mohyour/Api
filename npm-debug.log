@@ -1,0 +1,270 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-curl' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of C:\Users\Moyosore\Desktop\bootcamp\Api\package.json
+5 warn package.json api@1.0.0 No repository field.
+6 warn package.json api@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\prompt\package.json
+8 verbose readDependencies loading dependencies from C:\Users\Moyosore\Desktop\bootcamp\Api\package.json
+9 silly cache add args [ 'node-curl', null ]
+10 verbose cache add spec node-curl
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'node-curl',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'node-curl',
+11 silly cache add   rawSpec: '',
+11 silly cache add   spec: 'latest',
+11 silly cache add   type: 'tag' }
+12 silly addNamed node-curl@latest
+13 verbose addNamed "latest" is being treated as a dist-tag for node-curl
+14 info addNameTag [ 'node-curl', 'latest' ]
+15 silly mapToRegistry name node-curl
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry data Result {
+18 silly mapToRegistry   raw: 'node-curl',
+18 silly mapToRegistry   scope: null,
+18 silly mapToRegistry   name: 'node-curl',
+18 silly mapToRegistry   rawSpec: '',
+18 silly mapToRegistry   spec: 'latest',
+18 silly mapToRegistry   type: 'tag' }
+19 silly mapToRegistry uri https://registry.npmjs.org/node-curl
+20 verbose addNameTag registry:https://registry.npmjs.org/node-curl not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/node-curl
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 1:53:39 PM
+24 verbose request id f75eb158d5e2b95c
+25 http request GET https://registry.npmjs.org/node-curl
+26 http 200 https://registry.npmjs.org/node-curl
+27 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   etag: '"6BRQTSQA310L5MQWOUIIC9A6P"',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'content-encoding': 'gzip',
+27 verbose headers   'cache-control': 'max-age=300',
+27 verbose headers   'content-length': '4088',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   date: 'Mon, 22 Aug 2016 12:53:41 GMT',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'x-served-by': 'cache-lcy1125-LCY',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1471870421.349881,VS0,VE181',
+27 verbose headers   vary: 'Accept-Encoding' }
+28 silly get cb [ 200,
+28 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly get     etag: '"6BRQTSQA310L5MQWOUIIC9A6P"',
+28 silly get     'content-type': 'application/json',
+28 silly get     'content-encoding': 'gzip',
+28 silly get     'cache-control': 'max-age=300',
+28 silly get     'content-length': '4088',
+28 silly get     'accept-ranges': 'bytes',
+28 silly get     date: 'Mon, 22 Aug 2016 12:53:41 GMT',
+28 silly get     via: '1.1 varnish',
+28 silly get     age: '0',
+28 silly get     connection: 'keep-alive',
+28 silly get     'x-served-by': 'cache-lcy1125-LCY',
+28 silly get     'x-cache': 'MISS',
+28 silly get     'x-cache-hits': '0',
+28 silly get     'x-timer': 'S1471870421.349881,VS0,VE181',
+28 silly get     vary: 'Accept-Encoding' } ]
+29 verbose get saving node-curl to C:\Users\Moyosore\AppData\Roaming\npm-cache\registry.npmjs.org\node-curl\.cache.json
+30 verbose correctMkdir C:\Users\Moyosore\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+31 silly addNameTag next cb for node-curl with tag latest
+32 silly addNamed node-curl@0.3.3
+33 verbose addNamed "0.3.3" is a plain semver version for node-curl
+34 silly mapToRegistry name node-curl
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry data Result {
+37 silly mapToRegistry   raw: 'node-curl',
+37 silly mapToRegistry   scope: null,
+37 silly mapToRegistry   name: 'node-curl',
+37 silly mapToRegistry   rawSpec: '',
+37 silly mapToRegistry   spec: 'latest',
+37 silly mapToRegistry   type: 'tag' }
+38 silly mapToRegistry uri https://registry.npmjs.org/node-curl
+39 verbose addRemoteTarball https://registry.npmjs.org/node-curl/-/node-curl-0.3.3.tgz not in flight; adding
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-curl/-/node-curl-0.3.3.tgz',
+40 verbose addRemoteTarball   '71274370774c2298b860307a9e45877701638735' ]
+41 info retry fetch attempt 1 at 1:53:40 PM
+42 info attempt registry request try #1 at 1:53:40 PM
+43 http fetch GET https://registry.npmjs.org/node-curl/-/node-curl-0.3.3.tgz
+44 http fetch 200 https://registry.npmjs.org/node-curl/-/node-curl-0.3.3.tgz
+45 silly fetchAndShaCheck shasum 71274370774c2298b860307a9e45877701638735
+46 verbose addTmpTarball C:\Users\Moyosore\AppData\Local\Temp\npm-12440-42434d09\registry.npmjs.org\node-curl\-\node-curl-0.3.3.tgz not in flight; adding
+47 verbose addTmpTarball already have metadata; skipping unpack for node-curl@0.3.3
+48 verbose correctMkdir C:\Users\Moyosore\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+49 silly cache afterAdd node-curl@0.3.3
+50 verbose afterAdd C:\Users\Moyosore\AppData\Roaming\npm-cache\node-curl\0.3.3\package\package.json not in flight; writing
+51 verbose correctMkdir C:\Users\Moyosore\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+52 verbose afterAdd C:\Users\Moyosore\AppData\Roaming\npm-cache\node-curl\0.3.3\package\package.json written
+53 silly install resolved [ { name: 'node-curl',
+53 silly install resolved     version: '0.3.3',
+53 silly install resolved     author: { name: 'Jiang Miao', email: 'jiangfriend@gmail.com' },
+53 silly install resolved     description: 'node wrapper for multi curl, fully implemented.',
+53 silly install resolved     keywords: [ 'node-curl', 'curl', 'multi-curl', 'mcurl' ],
+53 silly install resolved     homepage: 'http://github.com/jiangmiao/node-curl',
+53 silly install resolved     repository: { type: 'git', url: 'git://github.com/jiangmiao/node-curl.git' },
+53 silly install resolved     main: './lib',
+53 silly install resolved     scripts: { install: 'sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)' },
+53 silly install resolved     engines: { node: '>= 0.6.0' },
+53 silly install resolved     bugs: { url: 'https://github.com/jiangmiao/node-curl/issues' },
+53 silly install resolved     _id: 'node-curl@0.3.3',
+53 silly install resolved     _shasum: '71274370774c2298b860307a9e45877701638735',
+53 silly install resolved     _resolved: 'https://registry.npmjs.org/node-curl/-/node-curl-0.3.3.tgz',
+53 silly install resolved     _from: 'node-curl@latest',
+53 silly install resolved     _npmVersion: '1.4.23',
+53 silly install resolved     _npmUser: { name: 'jiangmiao', email: 'jiangfriend@gmail.com' },
+53 silly install resolved     maintainers: [ [Object] ],
+53 silly install resolved     dist:
+53 silly install resolved      { shasum: '71274370774c2298b860307a9e45877701638735',
+53 silly install resolved        tarball: 'https://registry.npmjs.org/node-curl/-/node-curl-0.3.3.tgz' },
+53 silly install resolved     directories: {} } ]
+54 info install node-curl@0.3.3 into C:\Users\Moyosore\Desktop\bootcamp\Api
+55 info installOne node-curl@0.3.3
+56 verbose installOne of node-curl to C:\Users\Moyosore\Desktop\bootcamp\Api not in flight; installing
+57 verbose correctMkdir C:\Users\Moyosore\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+58 verbose lock using C:\Users\Moyosore\AppData\Roaming\npm-cache\_locks\node-curl-fa7c97959c35e45b.lock for C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl
+59 silly install write writing node-curl 0.3.3 to C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl
+60 verbose unbuild node_modules\node-curl
+61 silly gentlyRm C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl is being purged from base C:\Users\Moyosore\Desktop\bootcamp\Api
+62 verbose gentlyRm don't care about contents; nuking C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl
+63 verbose tar unpack C:\Users\Moyosore\AppData\Roaming\npm-cache\node-curl\0.3.3\package.tgz
+64 verbose tar unpacking to C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl
+65 silly gentlyRm C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl is being purged
+66 verbose gentlyRm don't care about contents; nuking C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl
+67 silly gunzTarPerm modes [ '777', '666' ]
+68 silly gunzTarPerm extractEntry package.json
+69 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+70 silly gunzTarPerm extractEntry .npmignore
+71 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+72 silly gunzTarPerm extractEntry README.md
+73 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+74 silly gunzTarPerm extractEntry index.js
+75 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+76 silly gunzTarPerm extractEntry binding.gyp
+77 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+78 silly gunzTarPerm extractEntry examples/curl.js
+79 silly gunzTarPerm modified mode [ 'examples/curl.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry examples/low-level.js
+81 silly gunzTarPerm modified mode [ 'examples/low-level.js', 420, 438 ]
+82 silly gunzTarPerm extractEntry examples/post-multi-part.js
+83 silly gunzTarPerm modified mode [ 'examples/post-multi-part.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry examples/test.js
+85 silly gunzTarPerm modified mode [ 'examples/test.js', 420, 438 ]
+86 silly gunzTarPerm extractEntry examples/low-level-pressure.js
+87 silly gunzTarPerm modified mode [ 'examples/low-level-pressure.js', 420, 438 ]
+88 silly gunzTarPerm extractEntry examples/test-stream.js
+89 silly gunzTarPerm modified mode [ 'examples/test-stream.js', 420, 438 ]
+90 silly gunzTarPerm extractEntry examples/pressure-multi-post.js
+91 silly gunzTarPerm modified mode [ 'examples/pressure-multi-post.js', 420, 438 ]
+92 silly gunzTarPerm extractEntry examples/test-get-info.js
+93 silly gunzTarPerm modified mode [ 'examples/test-get-info.js', 420, 438 ]
+94 silly gunzTarPerm extractEntry examples/test-errors.js
+95 silly gunzTarPerm modified mode [ 'examples/test-errors.js', 420, 438 ]
+96 silly gunzTarPerm extractEntry examples/quick-start.js
+97 silly gunzTarPerm modified mode [ 'examples/quick-start.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry examples/post.js
+99 silly gunzTarPerm modified mode [ 'examples/post.js', 420, 438 ]
+100 silly gunzTarPerm extractEntry examples/pressure.js
+101 silly gunzTarPerm modified mode [ 'examples/pressure.js', 420, 438 ]
+102 silly gunzTarPerm extractEntry examples/pressure.toffee
+103 silly gunzTarPerm modified mode [ 'examples/pressure.toffee', 420, 438 ]
+104 silly gunzTarPerm extractEntry examples/curl.toffee
+105 silly gunzTarPerm modified mode [ 'examples/curl.toffee', 420, 438 ]
+106 silly gunzTarPerm extractEntry examples/test-errors.toffee
+107 silly gunzTarPerm modified mode [ 'examples/test-errors.toffee', 420, 438 ]
+108 silly gunzTarPerm extractEntry examples/pressure-multi-post.toffee
+109 silly gunzTarPerm modified mode [ 'examples/pressure-multi-post.toffee', 420, 438 ]
+110 silly gunzTarPerm extractEntry examples/post.toffee
+111 silly gunzTarPerm modified mode [ 'examples/post.toffee', 420, 438 ]
+112 silly gunzTarPerm extractEntry examples/test-stream.toffee
+113 silly gunzTarPerm modified mode [ 'examples/test-stream.toffee', 420, 438 ]
+114 silly gunzTarPerm extractEntry examples/post-multi-part.toffee
+115 silly gunzTarPerm modified mode [ 'examples/post-multi-part.toffee', 420, 438 ]
+116 silly gunzTarPerm extractEntry examples/test.toffee
+117 silly gunzTarPerm modified mode [ 'examples/test.toffee', 420, 438 ]
+118 silly gunzTarPerm extractEntry .travis.yml
+119 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+120 silly gunzTarPerm extractEntry index.toffee
+121 silly gunzTarPerm modified mode [ 'index.toffee', 420, 438 ]
+122 silly gunzTarPerm extractEntry lib/Curl.js
+123 silly gunzTarPerm modified mode [ 'lib/Curl.js', 420, 438 ]
+124 silly gunzTarPerm extractEntry lib/CurlBuilder.js
+125 silly gunzTarPerm modified mode [ 'lib/CurlBuilder.js', 420, 438 ]
+126 silly gunzTarPerm extractEntry lib/Curl.toffee
+127 silly gunzTarPerm modified mode [ 'lib/Curl.toffee', 420, 438 ]
+128 silly gunzTarPerm extractEntry lib/CurlBuilder.toffee
+129 silly gunzTarPerm modified mode [ 'lib/CurlBuilder.toffee', 420, 438 ]
+130 silly gunzTarPerm extractEntry LICENSE-MIT
+131 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 420, 438 ]
+132 silly gunzTarPerm extractEntry src/generate_curl_options_list.sh
+133 silly gunzTarPerm modified mode [ 'src/generate_curl_options_list.sh', 493, 511 ]
+134 silly gunzTarPerm extractEntry src/node-curl.cc
+135 silly gunzTarPerm modified mode [ 'src/node-curl.cc', 420, 438 ]
+136 silly gunzTarPerm extractEntry src/node-curl.h
+137 silly gunzTarPerm modified mode [ 'src/node-curl.h', 420, 438 ]
+138 silly gunzTarPerm extractEntry wscript
+139 silly gunzTarPerm modified mode [ 'wscript', 420, 438 ]
+140 verbose write writing to C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl\package.json
+141 info preinstall node-curl@0.3.3
+142 verbose readDependencies loading dependencies from C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl\package.json
+143 verbose readDependencies loading dependencies from C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl\package.json
+144 silly install resolved []
+145 verbose about to build C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl
+146 info build C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl
+147 info linkStuff node-curl@0.3.3
+148 silly linkStuff node-curl@0.3.3 has C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules as its parent node_modules
+149 verbose linkBins node-curl@0.3.3
+150 verbose linkMans node-curl@0.3.3
+151 verbose rebuildBundles node-curl@0.3.3
+152 info install node-curl@0.3.3
+153 verbose unsafe-perm in lifecycle true
+154 info node-curl@0.3.3 Failed to exec install script
+155 verbose unlock done using C:\Users\Moyosore\AppData\Roaming\npm-cache\_locks\node-curl-fa7c97959c35e45b.lock for C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl
+156 verbose stack Error: node-curl@0.3.3 install: `sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)`
+156 verbose stack Exit status 1
+156 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+156 verbose stack     at emitTwo (events.js:87:13)
+156 verbose stack     at EventEmitter.emit (events.js:172:7)
+156 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+156 verbose stack     at emitTwo (events.js:87:13)
+156 verbose stack     at ChildProcess.emit (events.js:172:7)
+156 verbose stack     at maybeClose (internal/child_process.js:829:16)
+156 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+157 verbose pkgid node-curl@0.3.3
+158 verbose cwd C:\Users\Moyosore\Desktop\bootcamp\Api
+159 error Windows_NT 10.0.14393
+160 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-curl"
+161 error node v4.5.0
+162 error npm  v2.15.9
+163 error code ELIFECYCLE
+164 error node-curl@0.3.3 install: `sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)`
+164 error Exit status 1
+165 error Failed at the node-curl@0.3.3 install script 'sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)'.
+165 error This is most likely a problem with the node-curl package,
+165 error not with npm itself.
+165 error Tell the author that this fails on your system:
+165 error     sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)
+165 error You can get information on how to open an issue for this project with:
+165 error     npm bugs node-curl
+165 error Or if that isn't available, you can get their info via:
+165 error
+165 error     npm owner ls node-curl
+165 error There is likely additional logging output above.
+166 verbose exit [ 1, true ]
+167 verbose unbuild node_modules\node-curl
+168 info preuninstall node-curl@0.3.3
+169 info uninstall node-curl@0.3.3
+170 verbose unbuild rmStuff node-curl@0.3.3 from C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules
+171 info postuninstall node-curl@0.3.3
+172 silly gentlyRm C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl is being purged from base C:\Users\Moyosore\Desktop\bootcamp\Api
+173 verbose gentlyRm don't care about contents; nuking C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl
+174 silly vacuum-fs purging C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules\node-curl
+175 silly vacuum-fs quitting because other entries in C:\Users\Moyosore\Desktop\bootcamp\Api\node_modules
